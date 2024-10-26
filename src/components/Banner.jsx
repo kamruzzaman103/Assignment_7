@@ -3,14 +3,14 @@ const Banner = ({ onClaimCredit }) => (
     
         <div className='lg:mx-[103px] mx-[20px] rounded-xl bg-black '   
         style={{
-            backgroundImage: `url(${'/src/assets/image/bg-shadow.png'})`,
+            backgroundImage: `url(${'./src/assets/image/bg-shadow.png'})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
         }}
             >
             <div className="lg:max-w-[1070px] max-w-[500px] m-auto bg-banner-image bg-cover bg-center text-center py-10 text-white">
                 <div className='flex justify-center items-center'>
-                    <img className='mb-4' src="/src/assets/image/banner-main.png" alt="" />
+                    <img className='mb-4' src="./src/assets/image/banner-main.png" alt="" />
                 </div>
 
                 <h1 className="text-4xl font-bold">Assemble Your Ultimate Dream 11 Cricket Team</h1>
