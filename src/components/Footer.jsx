@@ -1,8 +1,9 @@
+import d from '/src/assets/image/logo-footer.png'
 const Footer = () => {
     return (
         <footer className="bg-gray-900 text-white pt-40 relative pb-4">
             <div className="flex flex-col items-center md:items-start">
-                <img src="/src/assets/image/logo-footer.png" alt="Cricket Logo" className="h-16 w-auto m-auto mb-4" />
+                <img src={d} alt="Cricket Logo" className="h-16 w-auto m-auto mb-4" />
             </div>
             <div className="lg:mx-[98px] mx-[20px] px-4 md:flex md:justify-between space-y-8 md:space-y-0 mb-4">
                 <div className="text-center md:text-left">

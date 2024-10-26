@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
+import banner from '/src/assets/image/bg-shadow.png';
 const Banner = ({ onClaimCredit }) => (
     
         <div className='lg:mx-[103px] mx-[20px] rounded-xl bg-black '   
         style={{
-            backgroundImage: `url(${'/src/assets/image/bg-shadow.png'})`,
+            backgroundImage: `url${banner}`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
         }}

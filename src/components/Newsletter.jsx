@@ -2,7 +2,7 @@ const Newsletter = () => {
     return (
         <div className="relative lg:mx-[98px] mx-[20px] m-auto border-2 border-white rounded-xl mb-[-130px] z-10 mt-10">
             <div className="m-3 bg-gray-100 text-center py-10 rounded-xl" style={{
-                backgroundImage: `url(${'./src/assets/image/bg-shadow.png'})`,
+                backgroundImage: `url(${'/src/assets/image/bg-shadow.png'})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
             }}>
