@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import a from '/src/assets/image/logo.png';
-import b from '/src/assets/image/gold-coin-with-dollar-sign-it_860932-19947.avif'
+import b from '/src/assets/image/gold-coin-with-dollar-sign-it_860932-19947.avif';
 
 const Navbar = ({ coins }) => {
   const [isScrolled, setIsScrolled] = useState(false);
