@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-
+import deleteIcone from "/src/assets/image/trash.png"
 const SelectedPlayer = ({ player, onRemove }) => (
   <div className="border py-2 px-4 flex justify-between items-center rounded-lg shadow-md bg-white mb-3">
     <div className='flex justify-center items-center gap-4'>
@@ -15,7 +15,7 @@ const SelectedPlayer = ({ player, onRemove }) => (
 
     <div className="flex items-center gap-3">
       <button onClick={() => onRemove(player.playerId)} className="text-red-500">
-        <img className='size-5' src="/src/assets/image/trash.png" alt="Remove Player" />
+        <img className='size-5' src={deleteIcone} alt="Remove Player" />
       </button>
     </div>
   </div>
