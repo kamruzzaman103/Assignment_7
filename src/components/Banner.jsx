@@ -3,7 +3,7 @@ const Banner = ({ onClaimCredit }) => (
     
         <div className='lg:mx-[103px] mx-[20px] rounded-xl bg-black '   
         style={{
-            backgroundImage: `url(${'./src/assets/image/bg-shadow.png'})`,
+            backgroundImage: `url(${'/src/assets/image/bg-shadow.png'})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
         }}

@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import a from '/src/assets/image/logo.png';
+import b from '/src/assets/image/gold-coin-with-dollar-sign-it_860932-19947.avif'
 
 const Navbar = ({ coins }) => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,7 +24,7 @@ const Navbar = ({ coins }) => {
         ${isScrolled ? 'bg-opacity-10' : 'bg-opacity-100'
           }`}
       >
-        <img className="size-12" src="./src/assets/image/logo.png" alt="Logo" />
+        <img className="size-12" src={a} alt="Logo" />
         <div className="flex items-center">
           <div className="navbar-center hidden lg:flex text-[16px]">
             <ul className="menu menu-horizontal px-1 text-gray-500">
@@ -36,7 +38,7 @@ const Navbar = ({ coins }) => {
             <div className="menu menu-horizontal p-2">{coins} Coin</div>
             <img
               className="size-6 mr-2"
-              src="./src/assets/image/gold-coin-with-dollar-sign-it_860932-19947.avif"
+              src={b}
               alt="Coin"
             />
           </div>
