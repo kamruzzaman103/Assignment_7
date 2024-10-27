@@ -17,7 +17,11 @@ const PlayerCard = ({ player, onChoose }) => (
         </div>
 
         <div className="border-b-2 border-gray-300"></div>
-        <h1 className='font-bold text-lg my-3'> Rating</h1>
+
+        <div className='flex justify-between items-center'>
+        <h1 className='font-bold text-lg my-3'>Rating</h1>
+        <h1>{player.rating}/10</h1>
+        </div>
 
         <div className='flex justify-between items-center text-[16px] font-semibold mb-2'>
             <p>{player.battingStyle}</p>
@@ -41,7 +45,8 @@ PlayerCard.propTypes = {
         battingStyle: PropTypes.string,
         bowlingStyle: PropTypes.string,
         price: PropTypes.string.isRequired,
-        picture: PropTypes.string.isRequired
+        picture: PropTypes.string.isRequired,
+        rating:PropTypes.string.isRequired
     }).isRequired,
     onChoose: PropTypes.func.isRequired
 };
